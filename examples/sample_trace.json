@@ -1,0 +1,47 @@
+{
+  "target": "8.8.8.8",
+  "resolved": "8.8.8.8",
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.1.1",
+      "rtts": [0.5, 0.5, 0.5],
+      "avg_ms": 0.5,
+      "hostname": "router.local",
+      "geo": {
+        "ip": "192.168.1.1",
+        "ok": true,
+        "private": true,
+        "country": "Private/LAN",
+        "city": "-",
+        "lat": null,
+        "lon": null
+      }
+    },
+    {
+      "hop": 2,
+      "ip": null,
+      "rtts": [null, null, null],
+      "avg_ms": null,
+      "hostname": null,
+      "geo": {"ip": null, "ok": false}
+    },
+    {
+      "hop": 3,
+      "ip": "8.8.8.8",
+      "rtts": [10.1, 11.2, 9.8],
+      "avg_ms": 10.37,
+      "hostname": "dns.google",
+      "geo": {
+        "ip": "8.8.8.8",
+        "ok": true,
+        "private": false,
+        "country": "United States",
+        "city": "Ashburn",
+        "lat": 39.03,
+        "lon": -77.5,
+        "isp": "Google LLC"
+      }
+    }
+  ]
+}
