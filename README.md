@@ -73,13 +73,3 @@ templates/index.html    # web UI (FA + map)
 tests/test_parser.py    # parser tests, no network needed
 examples/sample_trace.json
 ```
-
-## برای رزومه
-ایده‌های توسعه: نمودار latency با matplotlib، تشخیص ASN، خروجی CSV، حالت MTR پیوسته، تست سرعت per-hop.
-```
-
----
-
-## 🇮🇷 توضیح فارسی
-
-ابزار تریس‌روت که مسیر بسته تا مقصد را پیدا می‌کند، هر هاپ را روی نقشه نشان می‌دهد و پینگ و ISP را گزارش می‌دهد. بدون نیاز به دسترسی ادمین کار می‌کند.
